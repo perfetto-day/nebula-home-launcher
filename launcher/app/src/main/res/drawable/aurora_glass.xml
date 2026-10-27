@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- aurora_home: the frosted pill behind the tab bar and the header buttons; brighter while focused. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#29FFFFFF" />
+            <stroke android:width="0.5dp" android:color="#47FFFFFF" />
+            <corners android:radius="999dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#12FFFFFF" />
+            <stroke android:width="0.5dp" android:color="#24FFFFFF" />
+            <corners android:radius="999dp" />
+        </shape>
+    </item>
+</selector>

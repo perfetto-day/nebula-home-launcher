@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192" role="img" aria-label="Nebula icon">
+  <defs>
+    <linearGradient id="nebula" gradientUnits="userSpaceOnUse" x1="76" y1="61" x2="122" y2="105">
+      <stop offset="0" stop-color="#C084FC"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="40" fill="#15122B"/>
+  <path transform="translate(-121.8 -86.6) scale(2.2)" fill="url(#nebula)" stroke="url(#nebula)" stroke-width="2" stroke-linejoin="round" d="M99,61L122,80Q123,81 123,83V101Q123,105 119,105H79Q75,105 75,101V83Q75,81 76,80Z"/>
+</svg>

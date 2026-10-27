@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gleb's fork: strings and styles of the Aurora home screen. English only, so not translatable. -->
+<resources>
+    <string name="aurora_app_name" translatable="false">Nebula</string>
+    <string name="aurora_home" translatable="false">Home</string>
+    <string name="aurora_apps" translatable="false">Apps</string>
+    <string name="aurora_settings" translatable="false">Settings</string>
+    <string name="aurora_all_apps" translatable="false">All apps</string>
+    <string name="aurora_continue" translatable="false">Continue watching</string>
+    <string name="aurora_backlight" translatable="false">Backlight</string>
+    <string name="aurora_backlight_failed" translatable="false">The backlight did not answer</string>
+    <string name="aurora_set_tv" translatable="false">TV settings</string>
+    <string name="aurora_set_wifi" translatable="false">Wi-Fi</string>
+    <string name="aurora_set_picture" translatable="false">Picture &amp; sound</string>
+    <string name="aurora_set_inputs" translatable="false">Inputs</string>
+    <string name="aurora_set_apps" translatable="false">Apps</string>
+        <string name="aurora_home_screen" translatable="false">Home screen</string>
+    <string name="aurora_apps_on_home" translatable="false">Apps on Home</string>
+    <string name="aurora_apps_on_home_hint" translatable="false">Which apps, and in what order</string>
+    <string name="aurora_pick_note" translatable="false">Choose up to 6. They appear in the order you pick them; OK again takes one off.</string>
+    <string name="aurora_pick_full" translatable="false">Home holds 6 apps. Take one off first.</string>
+    <string name="aurora_watch_toggle" translatable="false">Nuvio: Continue watching</string>
+    <string name="aurora_watch_hint" translatable="false">A row of what you are watching. Off puts the apps at the bottom</string>
+    <string name="aurora_above_toggle" translatable="false">Continue watching above apps</string>
+    <string name="aurora_above_hint" translatable="false">The apps stay at the bottom; the row sits over them</string>
+    <string name="aurora_posters_toggle" translatable="false">Show posters</string>
+    <string name="aurora_posters_hint" translatable="false">The show\'s poster instead of the episode still</string>
+    <string name="aurora_light_toggle" translatable="false">Backlight follows the TV</string>
+    <string name="aurora_light_hint" translatable="false">Govee on when the TV wakes, off in standby</string>
+    <string name="aurora_menu_open" translatable="false">Open</string>
+    <string name="aurora_menu_add" translatable="false">Add to Home</string>
+    <string name="aurora_menu_remove" translatable="false">Remove from Home</string>
+    <string name="aurora_menu_left" translatable="false">Move left</string>
+    <string name="aurora_menu_right" translatable="false">Move right</string>
+    <string name="aurora_menu_info" translatable="false">App info</string>
+    <string name="aurora_menu_uninstall" translatable="false">Uninstall</string>
+    <string name="aurora_ps5" translatable="false">PS5</string>
+    <string name="aurora_hdmi1" translatable="false">HDMI 1</string>
+    <string name="aurora_backlight_on" translatable="false">Backlight on</string>
+    <string name="aurora_backlight_off" translatable="false">Backlight off</string>
+    <string name="aurora_govee" translatable="false">Govee</string>
+    <string name="aurora_vpn_on" translatable="false">VPN on</string>
+    <string name="aurora_vpn_off" translatable="false">VPN off</string>
+    <string name="aurora_happ" translatable="false">Happ</string>
+    <string name="aurora_open_happ" translatable="false">Open Happ</string>
+    <string name="aurora_look" translatable="false">Look</string>
+    <string name="aurora_focus_style" translatable="false">Focus animation</string>
+    <string name="aurora_focus_hint" translatable="false">Glide: the frame slides between the tiles of a row</string>
+    <string name="aurora_focus_lift" translatable="false">Lift</string>
+    <string name="aurora_focus_glide" translatable="false">Glide</string>
+    <string name="aurora_background" translatable="false">Background</string>
+    <item name="aurora_glide" type="id" />
+
+    <style name="AuroraTab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">17dp</item>
+        <item name="android:paddingEnd">17dp</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@font/jost_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFD9E0EC</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="AuroraHeading">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">56dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:fontFamily">@font/jost_medium</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFF3F6FB</item>
+    </style>
+
+    <style name="AuroraScroll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">-14dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:requiresFadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">30dp</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <style name="AuroraRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingStart">51.5dp</item>
+        <item name="android:paddingEnd">51.5dp</item>
+    </style>
+
+    <style name="AuroraCardTitle" parent="AuroraButtonTitle">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="AuroraCardSub" parent="AuroraButtonSub">
+        <item name="android:textSize">9.5sp</item>
+    </style>
+
+    <style name="AuroraButtonTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/jost_medium</item>
+        <item name="android:textSize">12.5sp</item>
+        <item name="android:textColor">#FFF3F6FB</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="AuroraButtonSub" parent="AuroraButtonTitle">
+        <item name="android:fontFamily">@font/jost_regular</item>
+        <item name="android:textSize">9.5sp</item>
+        <item name="android:textColor">#FFC3CBD9</item>
+    </style>
+</resources>

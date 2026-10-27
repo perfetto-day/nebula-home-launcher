@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Gleb's fork: the square "Nebula" icon, the banner's house alone, scaled up and centred. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+
+    <path
+        android:fillColor="#FF15122B"
+        android:pathData="M0,0h192v192h-192z" />
+    <group
+        android:translateX="-121.8"
+        android:translateY="-86.6"
+        android:scaleX="2.2"
+        android:scaleY="2.2">
+        <path
+            android:strokeWidth="2"
+            android:strokeLineJoin="round"
+            android:pathData="M99,61L122,80Q123,81 123,83V101Q123,105 119,105H79Q75,105 75,101V83Q75,81 76,80Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="76" android:startY="61"
+                    android:endX="122" android:endY="105"
+                    android:startColor="#FFC084FC"
+                    android:centerColor="#FF60A5FA"
+                    android:endColor="#FF2DD4BF" />
+            </aapt:attr>
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="76" android:startY="61"
+                    android:endX="122" android:endY="105"
+                    android:startColor="#FFC084FC"
+                    android:centerColor="#FF60A5FA"
+                    android:endColor="#FF2DD4BF" />
+            </aapt:attr>
+        </path>
+    </group>
+</vector>
